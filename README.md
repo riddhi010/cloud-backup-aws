@@ -7,7 +7,7 @@ This project implements a fully automated backup and data redundancy solution us
 
 ---
 
-> ⚠️ **Note**: This project does not have a live deployment due to AWS cost constraints. However, screenshots and a detailed report (`cloud_report.pdf`) are included.
+> ⚠️ **Note**: This project does not have a live deployment due to AWS cost constraints. However, screenshots and a detailed report (`cloud-backup-aws.pdf`) are included.
 
 ---
 
