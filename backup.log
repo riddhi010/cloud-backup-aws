@@ -1,0 +1,790 @@
+2025-04-24 20:13:21,463 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-24 20:13:21,503 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 20:13:22,509 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-24 20:13:22,510 - backup-agent - INFO - Starting backup process at 2025-04-24_20-13-21
+2025-04-24 20:13:22,510 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AI lab manual format.docx
+2025-04-24 20:13:22,511 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 20:13:22,511 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AI lab manual format.docx -> my-backups/2025-04-24_20-13-21/.
+2025-04-24 20:13:24,987 - backup-agent - INFO - Applying retention policy: keeping backups for 7 days
+2025-04-24 20:13:26,962 - backup-agent - INFO - Retention policy applied: deleted 0 objects from old backups
+2025-04-24 20:13:26,962 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 20:18:00,864 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-24 20:18:00,931 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 20:18:01,224 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-24 20:18:01,224 - backup-agent - INFO - Starting backup process at 2025-04-24_20-18-00
+2025-04-24 20:18:01,225 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 20:18:01,225 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 20:18:01,225 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_20-18-00/.
+2025-04-24 20:18:03,982 - backup-agent - INFO - Applying retention policy: keeping backups for 7 days
+2025-04-24 20:18:06,071 - backup-agent - INFO - Retention policy applied: deleted 0 objects from old backups
+2025-04-24 20:18:06,071 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 22:03:51,520 - backup-agent - INFO - Backup scheduler started (every 1 minute for testing)...
+2025-04-24 22:12:45,703 - backup-agent - ERROR - No S3 bucket specified. Use --bucket or config file.
+2025-04-24 22:13:21,770 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-24 22:13:21,832 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 22:13:23,963 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-24 22:13:23,963 - backup-agent - INFO - Starting backup process at 2025-04-24_22-13-21
+2025-04-24 22:13:23,983 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:13:23,984 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:13:23,985 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-13-21/.
+2025-04-24 22:13:27,734 - backup-agent - ERROR - Backup process failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:13:27,734 - backup-agent - ERROR - Backup failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:14:27,736 - backup-agent - INFO - Starting backup process at 2025-04-24_22-13-21
+2025-04-24 22:14:27,737 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:14:27,737 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:14:27,738 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-13-21/.
+2025-04-24 22:14:29,890 - backup-agent - ERROR - Backup process failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:14:29,891 - backup-agent - ERROR - Backup failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:20:31,431 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-24 22:20:31,562 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 22:20:31,859 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-24 22:20:31,859 - backup-agent - INFO - Starting backup process at 2025-04-24_22-20-31
+2025-04-24 22:20:31,860 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:20:31,860 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:20:31,860 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-20-31/.
+2025-04-24 22:20:35,455 - backup-agent - ERROR - Backup process failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:20:35,455 - backup-agent - ERROR - Backup failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:21:35,457 - backup-agent - INFO - Starting backup process at 2025-04-24_22-20-31
+2025-04-24 22:21:35,457 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:21:35,458 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:21:35,458 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-20-31/.
+2025-04-24 22:21:38,442 - backup-agent - ERROR - Backup process failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:21:38,442 - backup-agent - ERROR - Backup failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:22:38,444 - backup-agent - INFO - Starting backup process at 2025-04-24_22-20-31
+2025-04-24 22:22:38,444 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:22:38,445 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:22:38,445 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-20-31/.
+2025-04-24 22:22:40,473 - backup-agent - ERROR - Backup process failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:22:40,473 - backup-agent - ERROR - Backup failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:23:40,475 - backup-agent - INFO - Starting backup process at 2025-04-24_22-20-31
+2025-04-24 22:23:40,476 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:23:40,476 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:23:40,477 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-20-31/.
+2025-04-24 22:23:42,625 - backup-agent - ERROR - Backup process failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:23:42,625 - backup-agent - ERROR - Backup failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:24:42,626 - backup-agent - INFO - Starting backup process at 2025-04-24_22-20-31
+2025-04-24 22:24:42,626 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:24:42,626 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:24:42,626 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-20-31/.
+2025-04-24 22:24:45,992 - backup-agent - ERROR - Backup process failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:24:45,993 - backup-agent - ERROR - Backup failed: 'BackupAgent' object has no attribute 'apply_retention_policy'
+2025-04-24 22:25:05,495 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-24 22:25:05,540 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 22:25:05,837 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-24 22:25:05,838 - backup-agent - INFO - Starting backup process at 2025-04-24_22-25-05
+2025-04-24 22:25:05,838 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:25:05,839 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:25:05,839 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-25-05/.
+2025-04-24 22:25:10,153 - backup-agent - INFO - Applying retention policy: keeping backups for 7 days
+2025-04-24 22:25:11,419 - backup-agent - INFO - Retention policy applied: deleted 0 objects from old backups
+2025-04-24 22:25:11,419 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 22:26:15,959 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-24 22:26:15,994 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 22:26:16,309 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-24 22:26:16,310 - backup-agent - INFO - Starting backup process at 2025-04-24_22-26-15
+2025-04-24 22:26:16,310 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:26:16,311 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:26:16,311 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-26-15/.
+2025-04-24 22:26:18,466 - backup-agent - INFO - Applying retention policy: keeping backups for 1 minutes
+2025-04-24 22:26:19,482 - backup-agent - INFO - Deleting old backup from 2025-04-24_22-13-21 (1 objects)
+2025-04-24 22:26:19,704 - backup-agent - WARNING - Failed to delete object my-backups/2025-04-24_22-13-21/.: AccessDenied - User: arn:aws:iam::440744221795:user/backup-script is not authorized to perform: s3:DeleteObject on resource: "arn:aws:s3:::cloud-project-pushti/my-backups/2025-04-24_22-13-21/." because no identity-based policy allows the s3:DeleteObject action
+2025-04-24 22:26:19,704 - backup-agent - INFO - Deleting old backup from 2025-04-24_22-20-31 (1 objects)
+2025-04-24 22:26:20,388 - backup-agent - WARNING - Failed to delete object my-backups/2025-04-24_22-20-31/.: AccessDenied - User: arn:aws:iam::440744221795:user/backup-script is not authorized to perform: s3:DeleteObject on resource: "arn:aws:s3:::cloud-project-pushti/my-backups/2025-04-24_22-20-31/." because no identity-based policy allows the s3:DeleteObject action
+2025-04-24 22:26:20,389 - backup-agent - INFO - Deleting old backup from 2025-04-24_22-25-05 (1 objects)
+2025-04-24 22:26:24,267 - backup-agent - WARNING - Failed to delete object my-backups/2025-04-24_22-25-05/.: AccessDenied - User: arn:aws:iam::440744221795:user/backup-script is not authorized to perform: s3:DeleteObject on resource: "arn:aws:s3:::cloud-project-pushti/my-backups/2025-04-24_22-25-05/." because no identity-based policy allows the s3:DeleteObject action
+2025-04-24 22:26:24,267 - backup-agent - INFO - Retention policy applied: deleted 0 objects from old backups
+2025-04-24 22:26:24,268 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 22:27:24,269 - backup-agent - INFO - Starting backup process at 2025-04-24_22-26-15
+2025-04-24 22:27:24,269 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:27:24,269 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:27:24,269 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-26-15/.
+2025-04-24 22:27:30,600 - backup-agent - INFO - Applying retention policy: keeping backups for 1 minutes
+2025-04-24 22:27:30,973 - backup-agent - INFO - Deleting old backup from 2025-04-24_22-13-21 (1 objects)
+2025-04-24 22:27:31,938 - backup-agent - WARNING - Failed to delete object my-backups/2025-04-24_22-13-21/.: AccessDenied - User: arn:aws:iam::440744221795:user/backup-script is not authorized to perform: s3:DeleteObject on resource: "arn:aws:s3:::cloud-project-pushti/my-backups/2025-04-24_22-13-21/." because no identity-based policy allows the s3:DeleteObject action
+2025-04-24 22:27:31,938 - backup-agent - INFO - Deleting old backup from 2025-04-24_22-20-31 (1 objects)
+2025-04-24 22:27:33,184 - backup-agent - WARNING - Failed to delete object my-backups/2025-04-24_22-20-31/.: AccessDenied - User: arn:aws:iam::440744221795:user/backup-script is not authorized to perform: s3:DeleteObject on resource: "arn:aws:s3:::cloud-project-pushti/my-backups/2025-04-24_22-20-31/." because no identity-based policy allows the s3:DeleteObject action
+2025-04-24 22:27:33,184 - backup-agent - INFO - Deleting old backup from 2025-04-24_22-25-05 (1 objects)
+2025-04-24 22:27:34,510 - backup-agent - WARNING - Failed to delete object my-backups/2025-04-24_22-25-05/.: AccessDenied - User: arn:aws:iam::440744221795:user/backup-script is not authorized to perform: s3:DeleteObject on resource: "arn:aws:s3:::cloud-project-pushti/my-backups/2025-04-24_22-25-05/." because no identity-based policy allows the s3:DeleteObject action
+2025-04-24 22:27:34,510 - backup-agent - INFO - Deleting old backup from 2025-04-24_22-26-15 (1 objects)
+2025-04-24 22:27:37,713 - backup-agent - WARNING - Failed to delete object my-backups/2025-04-24_22-26-15/.: AccessDenied - User: arn:aws:iam::440744221795:user/backup-script is not authorized to perform: s3:DeleteObject on resource: "arn:aws:s3:::cloud-project-pushti/my-backups/2025-04-24_22-26-15/." because no identity-based policy allows the s3:DeleteObject action
+2025-04-24 22:27:37,713 - backup-agent - INFO - Retention policy applied: deleted 0 objects from old backups
+2025-04-24 22:27:37,714 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 22:51:09,068 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-24 22:51:09,111 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 22:51:10,143 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-24 22:51:10,143 - backup-agent - INFO - Starting backup process at 2025-04-24_22-51-09
+2025-04-24 22:51:10,144 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:51:10,144 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:51:10,144 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-51-09/.
+2025-04-24 22:51:19,285 - backup-agent - INFO - Deleting 4 objects older than cutoff
+2025-04-24 22:51:19,823 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-25-05/.: AccessDenied
+2025-04-24 22:51:19,823 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-26-15/.: AccessDenied
+2025-04-24 22:51:19,823 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-20-31/.: AccessDenied
+2025-04-24 22:51:19,823 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-13-21/.: AccessDenied
+2025-04-24 22:51:19,823 - backup-agent - INFO - Retention applied: actually deleted 0 objects
+2025-04-24 22:51:19,824 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 22:52:19,825 - backup-agent - INFO - Starting backup process at 2025-04-24_22-51-09
+2025-04-24 22:52:19,825 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:52:19,825 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:52:19,825 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-51-09/.
+2025-04-24 22:52:28,966 - backup-agent - INFO - Deleting 4 objects older than cutoff
+2025-04-24 22:52:30,370 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-26-15/.: AccessDenied
+2025-04-24 22:52:30,370 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-13-21/.: AccessDenied
+2025-04-24 22:52:30,371 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-20-31/.: AccessDenied
+2025-04-24 22:52:30,371 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-25-05/.: AccessDenied
+2025-04-24 22:52:30,371 - backup-agent - INFO - Retention applied: actually deleted 0 objects
+2025-04-24 22:52:30,371 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 22:53:30,372 - backup-agent - INFO - Starting backup process at 2025-04-24_22-51-09
+2025-04-24 22:53:30,372 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:53:30,372 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:53:30,372 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-51-09/.
+2025-04-24 22:53:33,190 - backup-agent - INFO - Deleting 4 objects older than cutoff
+2025-04-24 22:53:33,437 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-26-15/.: AccessDenied
+2025-04-24 22:53:33,437 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-20-31/.: AccessDenied
+2025-04-24 22:53:33,438 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-13-21/.: AccessDenied
+2025-04-24 22:53:33,438 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-25-05/.: AccessDenied
+2025-04-24 22:53:33,438 - backup-agent - INFO - Retention applied: actually deleted 0 objects
+2025-04-24 22:53:33,438 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 22:54:33,439 - backup-agent - INFO - Starting backup process at 2025-04-24_22-51-09
+2025-04-24 22:54:33,439 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 22:54:33,439 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 22:54:33,439 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_22-51-09/.
+2025-04-24 22:54:40,147 - backup-agent - INFO - Deleting 4 objects older than cutoff
+2025-04-24 22:54:40,406 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-25-05/.: AccessDenied
+2025-04-24 22:54:40,407 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-13-21/.: AccessDenied
+2025-04-24 22:54:40,407 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-26-15/.: AccessDenied
+2025-04-24 22:54:40,407 - backup-agent - WARNING - Delete error my-backups/2025-04-24_22-20-31/.: AccessDenied
+2025-04-24 22:54:40,408 - backup-agent - INFO - Retention applied: actually deleted 0 objects
+2025-04-24 22:54:40,408 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 23:16:12,524 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-24 23:16:12,566 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 23:16:12,900 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-24 23:16:12,900 - backup-agent - INFO - Starting backup process at 2025-04-24_23-16-12
+2025-04-24 23:16:12,900 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 23:16:12,901 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 23:16:12,901 - backup-agent - INFO - Uploading file 1/1: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx -> my-backups/2025-04-24_23-16-12/.
+2025-04-24 23:16:17,826 - backup-agent - INFO - Deleting 5 objects older than cutoff
+2025-04-24 23:16:18,164 - backup-agent - INFO - Retention applied: actually deleted 5 objects
+2025-04-24 23:16:18,165 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 23:42:18,834 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-24 23:42:18,879 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 23:42:19,201 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-24 23:42:19,201 - backup-agent - INFO - Starting backup process at 2025-04-24_23-42-18
+2025-04-24 23:42:19,202 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 23:42:19,202 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 23:42:21,156 - backup-agent - INFO - Retention: keeping backups for 5 minutes (cutoff=2025-04-24 23:37:21.156422)
+2025-04-24 23:42:22,066 - backup-agent - INFO - No objects to delete for retention
+2025-04-24 23:42:22,066 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 23:43:22,067 - backup-agent - INFO - Starting backup process at 2025-04-24_23-42-18
+2025-04-24 23:43:22,067 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 23:43:22,068 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 23:43:28,141 - backup-agent - INFO - Retention: keeping backups for 5 minutes (cutoff=2025-04-24 23:38:28.141510)
+2025-04-24 23:43:28,361 - backup-agent - INFO - No objects to delete for retention
+2025-04-24 23:43:28,362 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 23:44:28,363 - backup-agent - INFO - Starting backup process at 2025-04-24_23-42-18
+2025-04-24 23:44:28,363 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 23:44:28,363 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 23:44:30,475 - backup-agent - INFO - Retention: keeping backups for 5 minutes (cutoff=2025-04-24 23:39:30.475899)
+2025-04-24 23:44:30,717 - backup-agent - INFO - No objects to delete for retention
+2025-04-24 23:44:30,717 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 23:45:30,718 - backup-agent - INFO - Starting backup process at 2025-04-24_23-42-18
+2025-04-24 23:45:30,718 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 23:45:30,719 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 23:45:32,422 - backup-agent - INFO - Retention: keeping backups for 5 minutes (cutoff=2025-04-24 23:40:32.422687)
+2025-04-24 23:45:32,653 - backup-agent - INFO - No objects to delete for retention
+2025-04-24 23:45:32,653 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 23:46:32,654 - backup-agent - INFO - Starting backup process at 2025-04-24_23-42-18
+2025-04-24 23:46:32,655 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 23:46:32,655 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 23:46:45,315 - backup-agent - INFO - Retention: keeping backups for 5 minutes (cutoff=2025-04-24 23:41:45.315902)
+2025-04-24 23:46:46,085 - backup-agent - INFO - No objects to delete for retention
+2025-04-24 23:46:46,085 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 23:47:46,086 - backup-agent - INFO - Starting backup process at 2025-04-24_23-42-18
+2025-04-24 23:47:46,087 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 23:47:46,087 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 23:47:51,938 - backup-agent - INFO - Retention: keeping backups for 5 minutes (cutoff=2025-04-24 23:42:51.938284)
+2025-04-24 23:47:52,400 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-04-24 23:47:52,400 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 23:48:52,401 - backup-agent - INFO - Starting backup process at 2025-04-24_23-42-18
+2025-04-24 23:48:52,402 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 23:48:52,402 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 23:48:54,605 - backup-agent - INFO - Retention: keeping backups for 5 minutes (cutoff=2025-04-24 23:43:54.605650)
+2025-04-24 23:48:55,447 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-04-24 23:48:55,447 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-24 23:49:55,448 - backup-agent - INFO - Starting backup process at 2025-04-24_23-42-18
+2025-04-24 23:49:55,448 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\sem6\AI-LAB\AILAB_07_098 .docx
+2025-04-24 23:49:55,448 - backup-agent - INFO - Found 1 files to backup
+2025-04-24 23:49:59,027 - backup-agent - INFO - Retention: keeping backups for 5 minutes (cutoff=2025-04-24 23:44:59.027693)
+2025-04-24 23:49:59,848 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-04-24 23:49:59,848 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-25 00:06:27,174 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-25 00:06:27,175 - backup-agent - ERROR - No source paths specified. Use --source or config file.
+2025-04-25 00:08:30,467 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-25 00:08:30,468 - backup-agent - ERROR - No source paths specified. Use --source or config file.
+2025-04-25 13:25:02,754 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-25 13:25:02,756 - backup-agent - ERROR - No source paths specified. Use --source or config file.
+2025-04-25 13:25:35,823 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-25 13:25:35,824 - backup-agent - ERROR - No source paths specified. Use --source or config file.
+2025-04-25 13:26:10,072 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-25 13:26:10,073 - backup-agent - ERROR - No source paths specified. Use --source or config file.
+2025-04-25 13:28:37,730 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-25 13:28:37,772 - backup-agent - ERROR - Failed to initialize S3 client: Unable to parse config file: C:\Users\SHRENIK/.aws/credentials
+2025-04-25 13:28:37,773 - backup-agent - ERROR - Backup failed: Unable to parse config file: C:\Users\SHRENIK/.aws/credentials
+2025-04-25 13:29:03,710 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-25 13:29:03,744 - backup-agent - ERROR - Failed to initialize S3 client: Unable to parse config file: C:\Users\SHRENIK/.aws/credentials
+2025-04-25 13:29:03,745 - backup-agent - ERROR - Backup failed: Unable to parse config file: C:\Users\SHRENIK/.aws/credentials
+2025-04-25 13:29:30,979 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-25 13:29:31,050 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-25 13:29:33,082 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-25 13:29:33,083 - backup-agent - INFO - Starting backup process at 2025-04-25_13-29-30
+2025-04-25 13:29:33,084 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Documents\22BCP098_Riddhi Shah.docx
+2025-04-25 13:29:33,084 - backup-agent - INFO - Found 1 files to backup
+2025-04-25 13:29:35,755 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 13:29:35.754402)
+2025-04-25 13:29:37,283 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 13:29:37,283 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-25 13:30:37,284 - backup-agent - INFO - Starting backup process at 2025-04-25_13-29-30
+2025-04-25 13:30:37,284 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Documents\22BCP098_Riddhi Shah.docx
+2025-04-25 13:30:37,285 - backup-agent - INFO - Found 1 files to backup
+2025-04-25 13:30:39,936 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 13:30:39.936345)
+2025-04-25 13:30:40,124 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 13:30:40,124 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-25 13:36:23,613 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-04-25 13:36:23,692 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-25 13:36:24,141 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-25 13:36:24,142 - backup-agent - INFO - Starting backup process at 2025-04-25_13-36-23
+2025-04-25 13:36:24,142 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Documents\22BCP098_Riddhi Shah.docx
+2025-04-25 13:36:24,143 - backup-agent - INFO - Found 1 files to backup
+2025-04-25 13:36:25,673 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 13:36:25.673204)
+2025-04-25 13:36:27,268 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 13:36:27,269 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-25 13:59:42,192 - backup-agent - ERROR - Backup failed: argument -rm/--retention: conflicting option string: --retention
+2025-04-25 14:00:10,579 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-25 14:00:11,020 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-25 14:00:11,020 - backup-agent - INFO - Starting backup process at 2025-04-25_14-00-10
+2025-04-25 14:00:11,022 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:00:11,022 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:00:11,022 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:00:12,886 - backup-agent - ERROR - Upload failed for C:\Users\SHRENIK\Desktop\test.txt: Failed to upload C:\Users\SHRENIK\Desktop\test.txt to pushti-test//da1dfde8c502e87a/2025-04-25_14-00-10/test.txt: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-04-25 14:00:14,114 - backup-agent - ERROR - Upload failed for C:\Users\SHRENIK\Desktop\test.txt: Failed to upload C:\Users\SHRENIK\Desktop\test.txt to pushti-test//da1dfde8c502e87a/2025-04-25_14-00-10/test.txt: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-04-25 14:00:14,115 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:00:14.115726)
+2025-04-25 14:00:15,123 - backup-agent - ERROR - Failed to apply retention policy: An error occurred (NoSuchBucket) when calling the ListObjectsV2 operation: The specified bucket does not exist
+2025-04-25 14:00:15,123 - backup-agent - INFO - Backup completed successfully. Uploaded 0 files.
+2025-04-25 14:01:15,124 - backup-agent - INFO - Starting backup process at 2025-04-25_14-00-10
+2025-04-25 14:01:15,125 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:01:15,125 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:01:15,126 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:01:16,054 - backup-agent - ERROR - Upload failed for C:\Users\SHRENIK\Desktop\test.txt: Failed to upload C:\Users\SHRENIK\Desktop\test.txt to pushti-test//da1dfde8c502e87a/2025-04-25_14-00-10/test.txt: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-04-25 14:01:16,884 - backup-agent - ERROR - Upload failed for C:\Users\SHRENIK\Desktop\test.txt: Failed to upload C:\Users\SHRENIK\Desktop\test.txt to pushti-test//da1dfde8c502e87a/2025-04-25_14-00-10/test.txt: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-04-25 14:01:16,884 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:01:16.884812)
+2025-04-25 14:01:17,743 - backup-agent - ERROR - Failed to apply retention policy: An error occurred (NoSuchBucket) when calling the ListObjectsV2 operation: The specified bucket does not exist
+2025-04-25 14:01:17,743 - backup-agent - INFO - Backup completed successfully. Uploaded 0 files.
+2025-04-25 14:02:17,744 - backup-agent - INFO - Starting backup process at 2025-04-25_14-00-10
+2025-04-25 14:02:17,744 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:02:17,744 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:02:17,746 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:02:18,786 - backup-agent - ERROR - Upload failed for C:\Users\SHRENIK\Desktop\test.txt: Failed to upload C:\Users\SHRENIK\Desktop\test.txt to pushti-test//da1dfde8c502e87a/2025-04-25_14-00-10/test.txt: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-04-25 14:02:19,700 - backup-agent - ERROR - Upload failed for C:\Users\SHRENIK\Desktop\test.txt: Failed to upload C:\Users\SHRENIK\Desktop\test.txt to pushti-test//da1dfde8c502e87a/2025-04-25_14-00-10/test.txt: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-04-25 14:02:19,700 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:02:19.700984)
+2025-04-25 14:02:21,490 - backup-agent - ERROR - Failed to apply retention policy: An error occurred (NoSuchBucket) when calling the ListObjectsV2 operation: The specified bucket does not exist
+2025-04-25 14:02:21,490 - backup-agent - INFO - Backup completed successfully. Uploaded 0 files.
+2025-04-25 14:03:40,712 - backup-agent - ERROR - No S3 bucket specified. Use --bucket or config file.
+2025-04-25 14:04:37,319 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-25 14:04:37,654 - backup-agent - INFO - Successfully initialized S3 client
+2025-04-25 14:04:37,655 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:04:37,656 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:04:37,656 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:04:37,657 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:04:39,087 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:04:39.087908)
+2025-04-25 14:04:41,636 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:04:41,637 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:05:41,638 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:05:41,638 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:05:41,639 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:05:41,639 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:05:45,791 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:05:45.790713)
+2025-04-25 14:05:46,146 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:05:46,147 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:06:46,148 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:06:46,148 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:06:46,148 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:06:46,149 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:06:48,233 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:06:48.233845)
+2025-04-25 14:06:48,438 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:06:48,439 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:07:48,440 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:07:48,441 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:07:48,441 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:07:48,442 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:07:50,492 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:07:50.492718)
+2025-04-25 14:07:50,864 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:07:50,865 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:08:50,866 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:08:50,866 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:08:50,866 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:08:50,867 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:08:52,443 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:08:52.442991)
+2025-04-25 14:08:52,752 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:08:52,752 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:09:52,753 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:09:52,753 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:09:52,754 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:09:52,754 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:09:54,805 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:09:54.805458)
+2025-04-25 14:09:55,166 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:09:55,166 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:10:55,168 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:10:55,169 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:10:55,169 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:10:55,169 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:10:57,125 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:10:57.125979)
+2025-04-25 14:10:57,473 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:10:57,474 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:11:57,475 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:11:57,475 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:11:57,476 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:11:57,476 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:12:03,111 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:12:03.111791)
+2025-04-25 14:12:03,420 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:12:03,421 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:13:03,422 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:13:03,422 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:13:03,423 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:13:03,424 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:13:07,931 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:13:07.931260)
+2025-04-25 14:13:08,340 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:13:08,341 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:14:08,342 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:14:08,343 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:14:08,343 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:14:08,344 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:14:11,009 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:14:11.009008)
+2025-04-25 14:14:11,937 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:14:11,937 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:15:11,939 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:15:11,939 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:15:11,940 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:15:11,940 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:15:13,983 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:15:13.983911)
+2025-04-25 14:15:14,292 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:15:14,299 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:16:14,300 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:16:14,300 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:16:14,301 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:16:14,301 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:16:16,349 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:16:16.349696)
+2025-04-25 14:16:16,666 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:16:16,667 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:17:16,669 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:17:16,669 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:17:16,670 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:17:16,670 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:17:18,873 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:17:18.872426)
+2025-04-25 14:17:19,222 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:17:19,223 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:37:54,901 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:37:54,902 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:37:54,902 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:37:54,903 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:38:06,856 - backup-agent - ERROR - Upload failed for C:\Users\SHRENIK\Desktop\test.txt: Could not connect to the endpoint URL: "https://cloud-project-pushti.s3.eu-north-1.amazonaws.com//da1dfde8c502e87a/2025-04-25_14-04-36/../test.txt"
+2025-04-25 14:38:14,254 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:38:14.254789)
+2025-04-25 14:38:14,527 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:38:14,527 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-04-25 14:39:14,529 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:39:14,529 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:39:14,530 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:39:14,530 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:39:17,036 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:39:17.036307)
+2025-04-25 14:39:17,292 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:39:17,292 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:40:17,294 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:40:17,295 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:40:17,296 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:40:17,296 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:40:19,170 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:40:19.170699)
+2025-04-25 14:40:19,471 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:40:19,471 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:41:19,473 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:41:19,473 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:41:19,474 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:41:19,474 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:41:22,036 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:41:22.036629)
+2025-04-25 14:41:22,958 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:41:22,959 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:42:22,960 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:42:22,960 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:42:22,962 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:42:22,964 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:42:24,671 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:42:24.671947)
+2025-04-25 14:42:25,403 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:42:25,404 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:43:25,405 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:43:25,406 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:43:25,407 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:43:25,407 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:43:27,472 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:43:27.472411)
+2025-04-25 14:43:28,003 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:43:28,004 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:44:28,005 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:44:28,005 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:44:28,006 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:44:28,007 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:44:30,369 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:44:30.369725)
+2025-04-25 14:44:30,995 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:44:30,995 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:45:30,996 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:45:30,999 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:45:31,000 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:45:31,001 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:45:32,782 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:45:32.782292)
+2025-04-25 14:45:33,071 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:45:33,072 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:46:33,073 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:46:33,073 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:46:33,074 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:46:33,075 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:46:34,751 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:46:34.750766)
+2025-04-25 14:46:34,991 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:46:34,992 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:47:34,994 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:47:34,994 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:47:34,996 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:47:34,996 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:47:36,852 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:47:36.852206)
+2025-04-25 14:47:37,954 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:47:37,955 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:48:37,955 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:48:37,956 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:48:37,956 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:48:37,957 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:48:43,287 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:48:43.286149)
+2025-04-25 14:48:43,555 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:48:43,556 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:49:43,558 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:49:43,558 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:49:43,559 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:49:43,560 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:49:46,788 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:49:46.788620)
+2025-04-25 14:49:47,697 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:49:47,698 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:50:47,699 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:50:47,699 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:50:47,700 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:50:47,700 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:50:51,178 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:50:51.178283)
+2025-04-25 14:50:52,406 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:50:52,406 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:51:52,407 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:51:52,407 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:51:52,408 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:51:52,408 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:51:54,839 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:51:54.839428)
+2025-04-25 14:51:55,587 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:51:55,587 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:52:55,588 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:52:55,588 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:52:55,590 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:52:55,590 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:52:57,389 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:52:57.388429)
+2025-04-25 14:52:58,465 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:52:58,466 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:53:58,467 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:53:58,467 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:53:58,468 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:53:58,469 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:54:00,214 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:54:00.214795)
+2025-04-25 14:54:00,444 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:54:00,444 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:55:00,446 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:55:00,446 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:55:00,446 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:55:00,447 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:55:01,824 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:55:01.824664)
+2025-04-25 14:55:02,069 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:55:02,070 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:56:02,071 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:56:02,071 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:56:02,072 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:56:02,073 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:56:03,713 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:56:03.713538)
+2025-04-25 14:56:03,936 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:56:03,936 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:57:03,937 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:57:03,938 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:57:03,938 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:57:03,939 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:57:05,558 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:57:05.558600)
+2025-04-25 14:57:06,026 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:57:06,026 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:58:06,027 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:58:06,027 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:58:06,028 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:58:06,029 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:58:07,385 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:58:07.385250)
+2025-04-25 14:58:07,630 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:58:07,631 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 14:59:07,632 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 14:59:07,632 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 14:59:07,633 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 14:59:07,634 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 14:59:08,877 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 14:59:08.877940)
+2025-04-25 14:59:09,078 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 14:59:09,078 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:00:09,079 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:00:09,080 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:00:09,080 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:00:09,081 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:00:10,818 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:00:10.818019)
+2025-04-25 15:00:11,044 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:00:11,044 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:01:11,045 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:01:11,045 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:01:11,046 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:01:11,046 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:01:12,984 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:01:12.984981)
+2025-04-25 15:01:13,435 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:01:13,435 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:02:13,436 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:02:13,438 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:02:13,440 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:02:13,441 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:02:14,715 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:02:14.715674)
+2025-04-25 15:02:14,951 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:02:14,951 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:03:14,952 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:03:14,953 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:03:14,953 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:03:14,954 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:03:16,406 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:03:16.406661)
+2025-04-25 15:03:16,604 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:03:16,604 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:04:16,605 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:04:16,605 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:04:16,606 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:04:16,606 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:04:18,068 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:04:18.068813)
+2025-04-25 15:04:18,284 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:04:18,284 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:05:18,285 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:05:18,285 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:05:18,285 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:05:18,287 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:05:19,476 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:05:19.476169)
+2025-04-25 15:05:19,661 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:05:19,662 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:06:19,663 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:06:19,663 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:06:19,664 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:06:19,664 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:06:21,234 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:06:21.234901)
+2025-04-25 15:06:21,469 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:06:21,470 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:07:21,471 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:07:21,471 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:07:21,472 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:07:21,472 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:07:22,923 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:07:22.923143)
+2025-04-25 15:07:23,160 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:07:23,160 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:08:23,161 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:08:23,162 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:08:23,162 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:08:23,163 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:08:24,603 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:08:24.603071)
+2025-04-25 15:08:24,891 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:08:24,892 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:09:24,893 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:09:24,893 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:09:24,893 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:09:24,894 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:09:26,453 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:09:26.453952)
+2025-04-25 15:09:26,708 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:09:26,708 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:10:26,710 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:10:26,710 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:10:26,711 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:10:26,711 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:10:28,144 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:10:28.144445)
+2025-04-25 15:10:29,653 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:10:29,653 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:11:29,654 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:11:29,654 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:11:29,654 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:11:29,656 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:11:31,545 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:11:31.545452)
+2025-04-25 15:11:31,807 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:11:31,808 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:12:31,809 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:12:31,810 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:12:31,810 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:12:31,811 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:12:33,499 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:12:33.499104)
+2025-04-25 15:12:33,735 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:12:33,735 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-04-25 15:13:33,737 - backup-agent - INFO - Starting backup process at 2025-04-25_14-04-36
+2025-04-25 15:13:33,737 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test.txt
+2025-04-25 15:13:33,737 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\test2.txt
+2025-04-25 15:13:33,738 - backup-agent - INFO - Found 2 files to backup
+2025-04-25 15:13:35,123 - backup-agent - INFO - Retention: keeping backups for 7 days (cutoff=2025-04-18 15:13:35.123575)
+2025-04-25 15:13:35,348 - backup-agent - INFO - No objects to delete for retention
+2025-04-25 15:13:35,348 - backup-agent - INFO - Backup completed successfully. Uploaded 2 files.
+2025-05-01 09:15:08,447 - backup-agent - ERROR - Failed to load config file: [Errno 2] No such file or directory: 'config.json'
+2025-05-01 09:15:40,054 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-05-01 09:15:40,158 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-01 09:15:41,302 - backup-agent - INFO - Successfully initialized S3 client
+2025-05-01 09:15:41,302 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:15:41,302 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:15:41,303 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:15:42,780 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:13:42.780670)
+2025-05-01 09:15:44,914 - backup-agent - INFO - No objects to delete for retention
+2025-05-01 09:15:44,915 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:16:44,916 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:16:44,917 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:16:44,917 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:16:46,191 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:14:46.191423)
+2025-05-01 09:16:46,487 - backup-agent - INFO - No objects to delete for retention
+2025-05-01 09:16:46,487 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:17:46,490 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:17:46,491 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:17:46,492 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:17:47,832 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:15:47.832354)
+2025-05-01 09:17:48,437 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:17:48,437 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:18:48,439 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:18:48,440 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:18:48,441 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:18:50,183 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:16:50.183247)
+2025-05-01 09:18:50,795 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:18:50,796 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:19:50,797 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:19:50,798 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:19:50,799 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:19:51,886 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:17:51.886369)
+2025-05-01 09:19:52,650 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:19:52,651 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:20:52,652 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:20:52,652 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:20:52,653 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:20:53,810 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:18:53.810361)
+2025-05-01 09:20:54,294 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:20:54,295 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:21:54,296 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:21:54,296 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:21:54,297 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:21:55,732 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:19:55.732059)
+2025-05-01 09:21:56,175 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:21:56,175 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:22:56,176 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:22:56,177 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:22:56,178 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:22:57,378 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:20:57.378752)
+2025-05-01 09:22:57,899 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:22:57,900 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:23:57,902 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:23:57,903 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:23:57,903 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:23:59,530 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:21:59.530285)
+2025-05-01 09:24:00,144 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:24:00,146 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:25:00,148 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:25:00,149 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:25:00,150 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:25:02,096 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:23:02.096711)
+2025-05-01 09:25:02,710 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:25:02,712 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:26:02,713 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:26:02,714 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:26:02,715 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:26:04,049 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:24:04.048143)
+2025-05-01 09:26:04,677 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:26:04,677 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:27:04,678 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:27:04,679 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:27:04,680 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:27:05,897 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:25:05.897504)
+2025-05-01 09:27:06,511 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:27:06,513 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:28:06,514 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:28:06,514 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:28:06,515 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:28:07,652 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:26:07.652691)
+2025-05-01 09:28:08,156 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:28:08,157 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:29:08,158 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:29:08,159 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:29:08,160 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:29:09,596 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:27:09.596360)
+2025-05-01 09:29:10,314 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:29:10,315 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:30:10,316 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:30:10,317 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:30:10,318 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:30:11,957 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:28:11.957504)
+2025-05-01 09:30:12,387 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:30:12,388 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:31:12,389 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:31:12,390 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:31:12,391 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:31:13,604 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:29:13.604738)
+2025-05-01 09:31:14,216 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:31:14,217 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 09:32:14,218 - backup-agent - INFO - Starting backup process at 2025-05-01_09-15-40
+2025-05-01 09:32:14,219 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 09:32:14,220 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 09:32:15,498 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 09:30:15.498561)
+2025-05-01 09:32:16,167 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 09:32:16,168 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 12:24:54,571 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-05-01 12:24:54,623 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-01 12:24:55,969 - backup-agent - INFO - Successfully initialized S3 client
+2025-05-01 12:24:55,969 - backup-agent - INFO - Starting backup process at 2025-05-01_12-24-54
+2025-05-01 12:24:55,969 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 12:24:55,969 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 12:24:57,490 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 12:22:57.489971)
+2025-05-01 12:24:59,360 - backup-agent - INFO - No objects to delete for retention
+2025-05-01 12:24:59,361 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 12:25:59,362 - backup-agent - INFO - Starting backup process at 2025-05-01_12-24-54
+2025-05-01 12:25:59,363 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 12:25:59,364 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 12:26:00,365 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 12:24:00.365515)
+2025-05-01 12:26:00,717 - backup-agent - INFO - No objects to delete for retention
+2025-05-01 12:26:00,718 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 12:27:00,720 - backup-agent - INFO - Starting backup process at 2025-05-01_12-24-54
+2025-05-01 12:27:00,721 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 12:27:00,722 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 12:27:02,112 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 12:25:02.112031)
+2025-05-01 12:27:02,765 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 12:27:02,765 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 12:27:30,805 - backup-agent - INFO - Loaded configuration from backup_config.json
+2025-05-01 12:27:30,863 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-05-01 12:27:31,322 - backup-agent - INFO - Successfully initialized S3 client
+2025-05-01 12:27:31,322 - backup-agent - INFO - Starting backup process at 2025-05-01_12-27-30
+2025-05-01 12:27:31,322 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 12:27:31,322 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 12:27:32,427 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 12:25:32.426675)
+2025-05-01 12:27:33,622 - backup-agent - INFO - No objects to delete for retention
+2025-05-01 12:27:33,623 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 12:28:33,624 - backup-agent - INFO - Starting backup process at 2025-05-01_12-27-30
+2025-05-01 12:28:33,625 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 12:28:33,626 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 12:28:35,096 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 12:26:35.096826)
+2025-05-01 12:28:35,402 - backup-agent - INFO - No objects to delete for retention
+2025-05-01 12:28:35,403 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 12:29:35,404 - backup-agent - INFO - Starting backup process at 2025-05-01_12-27-30
+2025-05-01 12:29:35,404 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 12:29:35,405 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 12:29:36,837 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 12:27:36.837957)
+2025-05-01 12:29:37,353 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 12:29:37,354 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 12:30:37,355 - backup-agent - INFO - Starting backup process at 2025-05-01_12-27-30
+2025-05-01 12:30:37,356 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 12:30:37,357 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 12:30:38,384 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 12:28:38.384866)
+2025-05-01 12:30:38,911 - backup-agent - INFO - Retention policy applied: deleted 1 objects from old backups
+2025-05-01 12:30:38,911 - backup-agent - INFO - Backup completed successfully. Uploaded 1 files.
+2025-05-01 22:23:11,377 - backup-agent - INFO - Starting backup process at 2025-05-01_12-27-30
+2025-05-01 22:23:11,378 - backup-agent - INFO - Collecting files from: C:\Users\SHRENIK\Desktop\transactions.txt
+2025-05-01 22:23:11,379 - backup-agent - INFO - Found 1 files to backup
+2025-05-01 22:23:14,811 - backup-agent - ERROR - Upload failed for C:\Users\SHRENIK\Desktop\transactions.txt: Could not connect to the endpoint URL: "https://cloud-project-pushti.s3.eu-north-1.amazonaws.com/my-backups/da1dfde8c502e87a/2025-05-01_12-27-30/transactions.txt"
+2025-05-01 22:23:14,811 - backup-agent - INFO - Retention: keeping backups for 2 minutes (cutoff=2025-05-01 22:21:14.811436)
+2025-05-01 22:23:22,965 - backup-agent - ERROR - Failed to apply retention policy: Could not connect to the endpoint URL: "https://cloud-project-pushti.s3.eu-north-1.amazonaws.com/?list-type=2&prefix=my-backups%2Fda1dfde8c502e87a%2F&encoding-type=url"
+2025-05-01 22:23:22,966 - backup-agent - INFO - Backup completed successfully. Uploaded 0 files.

@@ -1,0 +1,9 @@
+{
+  "bucket_name": "cloud-project-pushti",
+  "source_paths": [
+    "C:/Users/SHRENIK/Desktop/transactions.txt"
+  ],
+  "prefix": "my-backups",          
+  "retention_days": 0,            
+  "retention_minutes": 2       
+}
