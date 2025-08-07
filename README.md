@@ -39,7 +39,7 @@ This project implements a fully automated backup and data redundancy solution us
 
 ```txt
 aws-backup-replication/
-├── backup_logic.py           # Local backup agent
+├── backup_agent.py           # Local backup agent
 ├── lambda_replication.py     # AWS Lambda function code
 ├── backup_config.json        # Sample configuration file
 ├── cloud-backup-aws.pdf      # Detailed project methodology
